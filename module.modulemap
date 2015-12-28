@@ -15,7 +15,7 @@ module CGLX [system] {
       header "/usr/include/X11/keysym.h"
   }
   module Xf86vmode {
-      header "/usr/inlcude/X11/extensions/xf86vmode.h"
+      header "/usr/include/X11/extensions/xf86vmode.h"
   }
   link "X11"
   link "GL"
