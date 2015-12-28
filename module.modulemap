@@ -5,5 +5,21 @@ module CGLX [system] {
   module Glu {
 	header "/usr/include/GL/glu.h"
   }
+  module X {
+      header "/usr/include/X11/X.h"
+  }
+  module X {
+      header "/usr/include/X11/X.h"
+  }
+  module Xatom {
+      header "/usr/include/X11/Xatom.h"
+  }
+  module Keysym {
+      header "/usr/include/X11/keysym.h"
+  }
+  module Xf86vmode {
+      header "/usr/inlcude/X11/extensions/xf86vmode.h"
+  }
+  link "X11"
   link "GL"
 }
