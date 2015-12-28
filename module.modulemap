@@ -1,0 +1,9 @@
+module CGLX [system] {
+  module Glx {
+	header "/usr/include/GL/glx.h"
+  }
+  module Glu {
+	header "/usr/include/GL/glu.h"
+  }
+  link "GL"
+}
