@@ -8,9 +8,6 @@ module CGLX [system] {
   module X {
       header "/usr/include/X11/X.h"
   }
-  module X {
-      header "/usr/include/X11/X.h"
-  }
   module Xatom {
       header "/usr/include/X11/Xatom.h"
   }
